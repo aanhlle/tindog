@@ -1,0 +1,166 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Section */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Heading */
+.big-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#title {
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 13% 6%;
+}
+
+/* Navigation bar */
+.navbar {
+  padding-bottom: 2.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.download-button {
+  margin: 2%;
+}
+
+.title-image {
+  width: 18%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 23%;
+}
+
+/* feature section */
+#features {
+  position: relative;
+}
+
+#features .container-fluid {
+  padding: 7% 15% 5%;
+}
+
+.feature-icon {
+  color: #ef8172;
+  padding: 1rem;
+  font-size: 3.5rem;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+/* testimonial section */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+/* press section */
+#press {
+  background-color: #ef8172;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 40px;
+}
+
+/* pricing section */
+.pricing-col {
+  padding: 3% 2%;
+  flex: 1;
+}
+
+.pricing-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.pricing-title {
+  font-size: 1.5rem;
+}
+
+.signup-btn:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+/* cta and footer */
+.cta-title {
+  font-size: 1.5rem;
+}
+
+.social-icon {
+  margin: 1%;
+}
+
+@media (max-width: 1103px) {
+  .title-image {
+    position: static;
+    width: 60%;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  .navbar {
+    text-align: right;
+  }
+
+  .big-heading {
+    font-size: 3rem;
+  }
+}
